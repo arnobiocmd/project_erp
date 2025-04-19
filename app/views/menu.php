@@ -29,8 +29,8 @@
 					</ul>
 				  <h3>Produto</h3>
 					<ul>
-						<li><a href="lst_produto.html">Lista todos</a></li>
-						<li><a href="frm_produto.html"> Cadastrar novo</a></li>							
+						<li><a href="<?php echo URL_BASE . "produto"?>">Lista todos</a></li>
+						<li><a href="<?php echo URL_BASE . "produto/create"?>"> Cadastrar novo</a></li>							
 					</ul>
 				
 				  <h3>Contato</h3>

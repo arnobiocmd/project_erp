@@ -1,7 +1,7 @@
 <?php
 use app\core\Excecao;
 session_start();
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(E_ALL & ~ E_NOTICE & ~E_WARNING & ~E_DEPRECATED);
 require_once 'app/core/Core.php';
 require_once 'app/helper/helper.php';
 require_once 'app/helper/datahora.php';

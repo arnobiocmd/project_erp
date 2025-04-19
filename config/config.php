@@ -14,7 +14,7 @@ define('CAMINHO'            , realpath('./'));
 define("TITULO_SITE","mjailton-ligando vc ao mundo do conhecimento");
 
 define('URL_BASE', 'http://' . $_SERVER["HTTP_HOST"].'/project_erp/');
-define('URL_IMAGEM', "http://". $_SERVER['HTTP_HOST'] . "/estrutura_mvc/UP/");
+define('URL_IMAGEM', "http://". $_SERVER['HTTP_HOST'] . "/project_erp/assets/upload/");
 
 define("SESSION_LOGIN","usuario_logado");
 
