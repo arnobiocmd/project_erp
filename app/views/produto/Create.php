@@ -15,10 +15,10 @@
                
 		<div class="rows p-4"> 
 			<div class="col-4">
-                        <form action="<?php echo URL_BASE."produto/salvar"?>" method="post">	
+                        <form action="<?php echo URL_BASE."produto/salvar"?>" method="post" enctype="multipart/form-data">	
 				<div class="py-1 px-2 mt-3 border text-center  campo-upload">
 					<label for="arquivo">
-						<img src="<?php echo URL_IMAGEM.$imagem?>" class="img-fluido opaco">
+						<img src="<?php echo URL_IMAGEM.$imagem?>" class="img-fluido opaco" id="imgUp">
 						<span>Inserir produto</span>
 					</label>
 						<input type="file" name="arquivo" id="arquivo" onchange="pegaArquivo(this.files)">

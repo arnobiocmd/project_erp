@@ -22,5 +22,5 @@ $config_upload["verifica_extensao"] = false;
 $config_upload["extensoes"]         = array(".gif",".jpeg", ".png", ".bmp", ".jpg");
 $config_upload["verifica_tamanho"]  = true;
 $config_upload["tamanho"]           = 3097152;
-$config_upload["caminho_absoluto"]  = realpath('./'). '/';
+$config_upload["caminho_absoluto"]  = realpath('./'). '/assets/upload/';
 $config_upload["renomeia"]          = true;

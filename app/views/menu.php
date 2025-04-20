@@ -35,8 +35,8 @@
 				
 				  <h3>Contato</h3>
 					<ul>
-						<li><a href="lst_contato.html">Lista todos</a></li>
-						<li><a href="frm_contato.html"> Cadastrar novo</a></li>							
+						<li><a href="<?php echo URL_BASE . "contato"?>">Lista todos</a></li>
+						<li><a href="<?php echo URL_BASE . "contato/create"?>"> Cadastrar novo</a></li>							
 					</ul>
 				  <h3>Usuário</h3>
 					<ul>
