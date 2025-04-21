@@ -62,7 +62,6 @@
 	<ul class="menu-lista">
 		<li class="icones"><a href="" title="Recolher menu"><i class="fas fa-arrow-left ativo"></i></a></li>
 		<h1 class="tt px-2"><b><i class="fas fa-cubes"></i> Estoque</b></h1>
-		<li><a href="<?php echo URL_BASE."tipomovimento"?>">Entradas</a></li>
 		<li><a href="entras_afulsas.html">Entradas avulsas</a></li>
 		
 		<small><b>Saídas</b></small>		
@@ -71,7 +70,8 @@
 		<small><b>Pedidos</b></small>		
 		<li><a href="pedidos.html">Pedidos</a></li>
 		
-		<small><b>Movimentações</b></small>		
+		<small><b>Movimentações</b></small>	
+		<li><a href="<?php echo URL_BASE."tipomovimento"?>">Tipo de Movimento</a></li>	
 		<li><a href="historico_movimento.html">Historico de movimento</a></li>
 		<li><a href="extrato_produto.html">Extrado produto</a></li>
 	</ul>
