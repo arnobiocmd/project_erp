@@ -62,6 +62,7 @@
 	<ul class="menu-lista">
 		<li class="icones"><a href="" title="Recolher menu"><i class="fas fa-arrow-left ativo"></i></a></li>
 		<h1 class="tt px-2"><b><i class="fas fa-cubes"></i> Estoque</b></h1>
+		<li><a href="<?php echo URL_BASE."tipomovimento"?>">Entradas</a></li>
 		<li><a href="entras_afulsas.html">Entradas avulsas</a></li>
 		
 		<small><b>Saídas</b></small>		
