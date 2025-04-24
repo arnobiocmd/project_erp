@@ -72,6 +72,8 @@
 		
 		<small><b>Movimentações</b></small>	
 		<li><a href="<?php echo URL_BASE."tipomovimento"?>">Tipo de Movimento</a></li>	
+		<li><a href="<?php echo URL_BASE."localizacao"?>">Localização</a></li>
+		<li><a href="<?php echo URL_BASE."produtolocalizacao"?>">Produto / Localização</a></li>
 		<li><a href="historico_movimento.html">Historico de movimento</a></li>
 		<li><a href="extrato_produto.html">Extrado produto</a></li>
 	</ul>
